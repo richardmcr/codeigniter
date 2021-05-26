@@ -32,7 +32,11 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
+$routes->get('/', 'Contatos::index');
+$routes->match(['get', 'post'], 'contatos/create', 'Contatos::create');
+$routes->match(['get', 'post'], 'contatos/(:segment)', 'Contatos::view/$1');
+$routes->get('contatos', 'Contatos::index');
+$routes->get('init', 'Init::index');
 
 /*
  * --------------------------------------------------------------------
