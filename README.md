@@ -2,7 +2,13 @@
 
 Para rodar a aplicação é necessário que se disponha de uma instância `MySQL`, que o [composer](https://getcomposer.org/) esteja instalado e que após clonado o projeto, os seguintes passos sejam seguidos:
 - copiar ou renomear o arquivo `env` para `.env`;
-- descomentar e editar as seguintes linhas do arquivo `.env` com as informações do banco `MySQL`:
+- executar o comando:
+
+```cmd
+composer install
+```
+
+- descomentar e editar as seguintes linhas do arquivo `.env` com as informações do banco `MySQL` (os dados abaixo são apenas sugestão):
 
 ```sql
 database.default.hostname = localhost
