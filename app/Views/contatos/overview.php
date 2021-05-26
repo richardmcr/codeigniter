@@ -2,7 +2,11 @@
 
     <div class="sticky">
         <div class="container">
-            <a type="button" href="/contatos/create" class="w-100 btn btn-danger btn-lg text-white">Novo Contato</a>
+            <a role="button" type="button" href="/contatos/create" class="w-100">
+                <div  class="w-100 btn btn-danger btn-lg text-white"> 
+                    Novo Contato
+                </div>
+            </a>
         </div>
     </div>
     <div class="container">
