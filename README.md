@@ -1,3 +1,7 @@
+## Sobre
+
+Aplicação utilizando o framework [Codeigniter](https://codeigniter.com), versão 4.
+
 ## Requisitos 
 
 - banco de dados `MySQL`
