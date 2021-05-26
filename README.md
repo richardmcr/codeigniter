@@ -1,3 +1,29 @@
+
+
+Para rodar a aplicação é necessário que se disponha de uma instância `MySQL`, que o [composer](https://getcomposer.org/) esteja instalado e que após clonado o projeto, os seguintes passos sejam seguidos:
+- copiar ou renomear o arquivo `env` para `.env`;
+- descomentar e editar as seguintes linhas do arquivo `.env` com as informações do banco `MySQL`:
+
+```sql
+database.default.hostname = localhost
+database.default.database = codeigniter
+database.default.username = root
+database.default.password = 
+database.default.DBDriver = MySQLi
+```
+
+- por fim, executar o comando:
+
+```
+php spark serve
+```
+
+A aplicação pode ser acessada em:
+
+```python
+http://localhost:8080
+```
+
 # CodeIgniter 4 Application Starter
 
 ## What is CodeIgniter?
