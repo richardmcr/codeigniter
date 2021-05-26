@@ -12,7 +12,7 @@
 composer install
 ```
 
-- descomentar e editar as seguintes linhas do arquivo `.env` com as informações do banco `MySQL`:
+- descomentar e editar as seguintes linhas do arquivo `.env` com as informações referentes ao banco de dados `MySQL`:
 
 ```sql
 database.default.hostname = 
